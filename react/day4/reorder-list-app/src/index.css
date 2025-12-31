@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+.app {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.position {
+  width: 30px;
+  font-weight: bold;
+}
+
+.title {
+  flex: 1;
+}
+
+.actions button {
+  margin-left: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.actions button:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
