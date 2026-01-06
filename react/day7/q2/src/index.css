@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.light {
+  background: #f9f9f9;
+  color: #000;
+}
+
+.dark {
+  background: #121212;
+  color: #fff;
+}
+
+.container {
+  width: 420px;
+  margin: 40px auto;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-bottom: 10px;
+}

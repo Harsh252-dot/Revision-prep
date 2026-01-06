@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #222;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  z-index: 1000;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav button.active {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+section {
+  height: 100vh;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.about { background: #f4f4f4; }
+.services { background: #ddd; }
+.portfolio { background: #bbb; }
+.contact { background: #999; }
