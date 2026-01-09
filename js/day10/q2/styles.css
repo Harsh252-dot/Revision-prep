@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+  width: 400px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  cursor: pointer;
+  user-select: none;
+}
+
+th span {
+  margin-left: 6px;
+}
